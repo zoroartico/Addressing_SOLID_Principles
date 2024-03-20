@@ -1,6 +1,6 @@
 package solved.OCP;
 
-interface Drawable {
+interface IDrawable {
     void draw();
 }
 
