@@ -8,11 +8,14 @@ class Character {
     }
 
     //more Characters could be added but that violates OCP
-    public void draw() {
+    public void chooseClass() {
         switch (type) {
-            case "Wizard" -> System.out.println("Creating Wizard");
-            case "Warrior" -> System.out.println("Creating Warrior");
-            case "Spell Sword" -> System.out.println("Creating Spell Sword");
+            case "Wizard" -> System.out.println("Selecting Wizard");
+            case "Warrior" -> System.out.println("Selecting Warrior");
+            case "Spell Sword" -> System.out.println("Selecting Spell Sword");
+            default -> {System.out.println("Invalid selection, setting type to Classless");
+                        this.type = "Classless";}
+
         }
     }
 }
