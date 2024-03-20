@@ -25,7 +25,7 @@ that classes should only implement interfaces containing methods relevant to the
 - **Warrior.java**: Class implementing the `IBattleActions` interface.
 - **Wizard.java**: Class implementing the `IBattleActions` interface.
 
-###### Violations
+##### Violations
 
 Within `IBattleActions` is every possible method for an in-combat character including `UseMana`.
 The **Warrior.Java** class does not have the ability to use mana, This violates the ISP principle
@@ -54,7 +54,7 @@ within the interface.
 - **Warrior.java**: Class implementing the `IWarrior` interface.
 - **Wizard.java**: Class implementing the `IWizard` interface.
 
-###### Conclusion
+##### Conclusion
 
 By adhering to the Interface Segregation Principle, this project promotes code maintainability, 
 extensibility, and readability in the RPG system. It ensures that each class implements only the 
@@ -76,7 +76,7 @@ modifying their source code.
 
 - **Character**: Class setting which class the character will become based on character type passed.
 
-###### Violations
+##### Violations
 
 - **Character** class is creating the object based on a condition passed at time of creation. This
   violates the OCP rule "Software entities (classes, modules, functions, etc.) should be open for
@@ -95,7 +95,7 @@ modifying their source code.
 - **Warrior.java**: Class implementing the `ICharacter` interface for defining Warrior Characters.
 - **Wizard.java**: Class implementing the `ICharacter` interface for defining Wizard Characters.
 
-### Conclusion
+##### Conclusion
 
 By adhering to the Open/Closed Principle, this project promotes code maintainability and extensibility. 
 It allows the system to support new characters by simply creating new classes that implement the 
@@ -118,7 +118,7 @@ maintainable, flexible, and easier to understand, leading to a more robust and a
 
 - **Character**: Class used to handle character actions and manage its inventory.
 
-###### Violations
+##### Violations
 
 - **Character** class violates the SRP principle by handling both character actions and inventory
   management. SRP suggests that classes should have only one reason to change. Combining character
@@ -137,7 +137,7 @@ maintainable, flexible, and easier to understand, leading to a more robust and a
 - **Character.java**: Class for defining Characters actions.
 - **Inventory.java**: Class managing Character inventories as character-owned Item object lists.
 
-### Conclusion
+##### Conclusion
 
 By adhering to the Single Responsibility Principle (SRP), this project ensures that each class is focused 
 on a specific aspect of functionality, reducing coupling and increasing cohesion. This approach enhances 
