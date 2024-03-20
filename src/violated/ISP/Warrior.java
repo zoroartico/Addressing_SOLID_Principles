@@ -14,7 +14,7 @@ class Warrior implements IBattleActions {
                             "\n...He's even dumber then you thought!");
     }
 
-    public void usePotion() {
-        System.out.println("Warrior drinks health potion!");
+    public void useItem() {
+        System.out.println("Warrior uses an item!");
     }
 }

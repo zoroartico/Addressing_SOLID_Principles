@@ -13,7 +13,7 @@ public class Wizard implements IBattleActions {
         System.out.println("Wizard casts another spell!");
     }
 
-    public void usePotion() {
-        System.out.println("Wizard drinks mana potion!");
+    public void useItem() {
+        System.out.println("Wizard uses an item!");
     }
 }
