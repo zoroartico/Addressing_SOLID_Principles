@@ -16,8 +16,8 @@ public class Warrior implements IWarrior {
     }
 
     @Override
-    public void usePotion() {
-        System.out.println(title+" drinks health potion!");
+    public void useItem() {
+        System.out.println(title+" used an Item!");
     }
 
     @Override

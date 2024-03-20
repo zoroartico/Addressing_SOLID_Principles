@@ -6,17 +6,17 @@ public class SpellSword implements ISpellSword {
     private final String title = "Spell Sword";
     @Override
     public void attack() {
-        System.out.println(title+" attacks with sword!");
+        System.out.println(title+" attacks with enchanted flame sword!");
     }
 
     @Override
     public void defend() {
-        System.out.println(title+" raises shield to defend!");
+        System.out.println(title+" summons wooden spirit to defend!");
     }
 
     @Override
-    public void usePotion() {
-        System.out.println(title+" drinks health potion!");
+    public void useItem() {
+        System.out.println(title+" used an Item!");
     }
 
     @Override

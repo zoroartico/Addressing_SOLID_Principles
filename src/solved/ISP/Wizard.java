@@ -21,7 +21,7 @@ public class Wizard implements IWizard {
     }
 
     @Override
-    public void usePotion() {
-        System.out.println(title+" drinks mana potion!");
+    public void useItem() {
+        System.out.println(title+" used an Item!");
     }
 }
